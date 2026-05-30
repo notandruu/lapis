@@ -144,7 +144,7 @@ curl https://lapis-api-production.up.railway.app/safe/MARKET_ID
 ## Quick Start (Local)
 
 ```bash
-git clone https://github.com/stephenhungg/lapis.git
+git clone https://github.com/notandruu/lapis.git
 cd lapis
 npm install
 
