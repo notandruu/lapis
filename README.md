@@ -1,6 +1,8 @@
-# Lapis
+# Lapis — Agentic Deal Platform
 
-**AI-powered startup valuations settled on XRPL.**
+**[🏆 1st Overall — Blockchain at Berkeley Hacks 2026]**
+
+**AI agents automating end-to-end deal workflows — valuation, legal, and on-chain settlement.**
 
 *AI strips a startup naked. The crowd prices it. The protocol gives you real equity with the terms locked on-chain.*
 
@@ -185,7 +187,9 @@ lapis/
 
 ## Tech Stack
 
+- **Python** -- agent orchestration and evaluation pipelines
 - **TypeScript** (ES2022, ESM, strict mode)
+- **LangGraph** -- sub-agent coordination and workflow state management
 - **Express 4** with typed ApiResponse<T> wrapper
 - **Claude API** (Anthropic SDK) -- analysis + adversarial audit
 - **Grok API** (xAI) -- real-time X/Twitter social data
@@ -194,7 +198,8 @@ lapis/
 - **viem** -- Base EVM interaction
 - **Solidity 0.8.24** -- SAFEAgreement contract (compiled with solc)
 - **Next.js 15** -- frontend
-- **Redis** -- persistent storage
+- **Redis** -- sub-agent task queue and persistent storage
+- **PostgreSQL** -- reliability and evaluation metrics across pipeline runs
 - **Railway** -- backend deployment
 - **Vercel** -- frontend deployment
 
